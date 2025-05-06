@@ -3,5 +3,5 @@ EXPOSE 5000
 WORKDIR /app
 COPY requirements.txt .
 RUN pip install --no-cache-dir -r requirements.txt
-COPY ./API .
-CMD ["python","app.py"]
+COPY . .
+CMD ["python","main.py"]
