@@ -2,7 +2,6 @@ import jwt
 
 from Token import token
 from flask import request, jsonify, Blueprint
-from flask_restful import Resource
 
 api = Blueprint('test', __name__)
 

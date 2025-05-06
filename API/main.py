@@ -1,5 +1,4 @@
 # This is a sample Python script.
-from flask_restful import Api, Resource
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
 from API import login
