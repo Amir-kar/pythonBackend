@@ -7,9 +7,11 @@ testingDB = db["Tests"]
 
 class MongoDB:
     def __init__(self):
-        self.db = MongoClient("mongodb://db:27017").BackEnd
-    def getClient(self):
-        return self.db
+        self.db = MongoClient("mongodb://db:27017")
+    def getDB(self):
+        return self.db.BackEnd
+    def closeDB(self):
+        self.db.close()
 # class createTest(Resource):
 #     def post(self):
 #         testingDB.insert_one({
