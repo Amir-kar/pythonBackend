@@ -1,7 +1,7 @@
 # This is a sample Python script.
 from flask import Flask, request, jsonify
 from pymongo import MongoClient
-from API import login
+from api import login
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.

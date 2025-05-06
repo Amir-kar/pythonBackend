@@ -1,6 +1,6 @@
 import jwt
 
-from Token import token
+from token import token
 from flask import request, jsonify, Blueprint
 
 api = Blueprint('test', __name__)
